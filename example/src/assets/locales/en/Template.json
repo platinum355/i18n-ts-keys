@@ -1,0 +1,16 @@
+{
+  "Context": {
+    "contextExample_first": "String with first context",
+    "contextExample_second": "String with second context",
+    "header": "Context examples"
+  },
+  "Header": "I18n-ts-keys examples",
+  "Plurals": {
+    "example": "{{count}} example",
+    "example_plural": "{{count}} examples",
+    "header": "Plurals examples:"
+  },
+  "Simple": {
+    "title": "This plugin generates a typed constant with i18n keys"
+  }
+}

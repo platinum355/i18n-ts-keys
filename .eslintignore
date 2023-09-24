@@ -1,0 +1,7 @@
+/*.js
+/example/src/assets/locales/noTranslationStringKey.js
+/*.json
+/**/tsconfig.json
+/**/package.json
+/**/package-lock.json
+/**/dist

@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+.idea
+package-lock.json
+/example/src/assets/locales/index.ts

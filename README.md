@@ -55,6 +55,8 @@ module.exports = () => ({
 
 Just import `Translation` constant from output path and use it !
 
+Recommend adding the generated file to .gitignore
+
 ```jsx
 import React from 'react';
 import {useTranslation} from 'react-i18next';

@@ -1,10 +1,18 @@
 {
   "name": "@i18n-ts-keys/webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf && tsc"
+    "build": "rm -rf && npm i && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platinum355/i18n-ts-keys.git",
+    "directory": "packages/webpack-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/platinum355/i18n-ts-keys/issues"
   },
   "files": [
     "dist"

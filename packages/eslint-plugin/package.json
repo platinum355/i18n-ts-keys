@@ -4,7 +4,15 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf && tsc"
+    "build": "rm -rf && npm i && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platinum355/i18n-ts-keys.git",
+    "directory": "packages/eslint-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/platinum355/i18n-ts-keys/issues"
   },
   "files": [
     "dist"

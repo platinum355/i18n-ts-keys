@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@i18n-ts-keys/eslint-plugin": "^1.0.4",
+    "@i18n-ts-keys/webpack-plugin": "^1.0.3",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "html-webpack-plugin": "^5.5.3",
@@ -20,7 +21,6 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "@i18n-ts-keys/webpack-plugin": "file:../packages/webpack-plugin",
     "i18next": "^19.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

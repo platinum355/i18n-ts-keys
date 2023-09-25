@@ -1,17 +1,27 @@
 {
   "name": "i18n-ts-keys",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack plugin for generation typed i18n keys constant.",
+  "author": "Michael Mishin <platinum355@mail.ru>",
+  "license": "MIT",
   "private": "true",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && npm run example",
     "build": "pnpm -r --filter=./packages/** run build",
+    "example": "cd example && npm i && npm start",
+    "prestart": "npm i",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint . --max-warnings=0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platinum355/i18n-ts-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/platinum355/i18n-ts-keys/issues"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",

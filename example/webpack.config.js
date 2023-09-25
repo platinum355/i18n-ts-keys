@@ -1,6 +1,7 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+/* eslint-disable @typescript-eslint/no-var-requires */
+const I18nTsKeysPlugin = require('@i18n-ts-keys/webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-const I18nTsKeysPlugin = require("@i18n-ts-keys/webpack-plugin/dist/index.js").default;
 
 module.exports = () => ({
     entry: './src/index.tsx',
@@ -16,7 +17,7 @@ module.exports = () => ({
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
-        modules: ['node_modules', 'src']
+        modules: ['node_modules', 'src'],
     },
     output: {
         filename: 'bundle.js',
@@ -25,15 +26,16 @@ module.exports = () => ({
     plugins: [
         new HtmlWebpackPlugin({
             title: 'our project',
-            template: 'src/assets/index.html' }),
+            template: 'src/assets/index.html',
+        }),
         new I18nTsKeysPlugin({
             inputPath: path.resolve('src/assets/locales/en'),
-            outputPath: path.resolve('src/assets/locales/index.ts')
-        })
+            outputPath: path.resolve('src/assets/locales/index.ts'),
+        }),
     ],
     devServer: {
-        static: path.join(__dirname, "dist"),
+        static: path.join(__dirname, 'dist'),
         compress: true,
         port: 3000,
     },
-})
+});

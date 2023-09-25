@@ -132,4 +132,4 @@ class I18nTsKeysPlugin {
     }
 }
 
-export default I18nTsKeysPlugin;
+export = I18nTsKeysPlugin;

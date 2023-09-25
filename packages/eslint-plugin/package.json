@@ -1,11 +1,14 @@
 {
   "name": "@i18n-ts-keys/eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
-  "main": "noTranslationStringKey.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf && tsc"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"

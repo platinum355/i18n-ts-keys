@@ -15,10 +15,11 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     parserOptions: {
         project: 'tsconfig.json',
-        tsconfigRootDir: '.',
+        tsconfigRootDir: '../',
     },
-    plugins: ['react', '@typescript-eslint', 'prettier', 'eslint-plugin-import-helpers', 'jsdoc', 'typescript-sort-keys', 'react-hooks'],
+    plugins: ['@i18n-ts-keys', 'react', '@typescript-eslint', 'prettier', 'eslint-plugin-import-helpers', 'jsdoc', 'typescript-sort-keys', 'react-hooks'],
     rules: {
+        '@i18n-ts-keys/no-translation-string-key': 'error',
         '@typescript-eslint/interface-name-prefix': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',

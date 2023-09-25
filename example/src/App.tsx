@@ -16,7 +16,6 @@ export const App = () => {
             <h1>{t(Template.Header)}</h1>
             <h4>{t(Simple.title)}</h4>
             <h2>{t(Plurals.header)}</h2>
-            <h2>{t('qweqweqwe')}</h2>
             <ul>
                 <li>{t(Plurals.example, {count: 1})}</li>
                 <li>{t(Plurals.example, {count: 2})}</li>

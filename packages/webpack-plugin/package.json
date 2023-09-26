@@ -1,8 +1,10 @@
 {
   "name": "@i18n-ts-keys/webpack-plugin",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
   "main": "dist/index.js",
+  "description": "Webpack plugin for generation typed i18n keys constant.",
+  "author": "Michael Mishin <platinum355@mail.ru>",
+  "license": "MIT",
   "scripts": {
     "build": "rm -rf && npm i && tsc"
   },
@@ -18,8 +20,6 @@
     "dist"
   ],
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "^20.6.3",
     "fs": "0.0.1-security",

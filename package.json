@@ -1,6 +1,6 @@
 {
   "name": "i18n-ts-keys",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Webpack plugin for generation typed i18n keys constant.",
   "author": "Michael Mishin <platinum355@mail.ru>",
   "license": "MIT",

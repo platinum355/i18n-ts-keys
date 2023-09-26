@@ -48,7 +48,7 @@ module.exports = () => ({
 
 `inputPath` - path to one of the directories with translations
 
-`outputPath` - path to output .ts file
+`outputPath` - path to output .ts file (will be created)
 
 
 ## Using

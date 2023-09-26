@@ -16,9 +16,9 @@ Webpack plugin for generation typed i18n keys constant.
 
 ## Highlights
 
-- 🌱 Exclude string hell
-- 💎 Typed keys constant
-- 🚀 Destructuring the keys constant
+- 🌱 Exclude string keys
+- 💎 Use a typed constant
+- 🚀 Destructure the keys constant
 - ✂️ Tree shaking
 - 🔗 Typing hints
 

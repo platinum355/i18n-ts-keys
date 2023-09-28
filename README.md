@@ -54,7 +54,7 @@ module.exports = () => ({
 
 ## Using
 
-Just import `Translation` constant from output path and use it !
+Just import `Translations` constant from output path and use it !
 
 Recommend adding the generated file to .gitignore and .eslintignore
 
